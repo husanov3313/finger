@@ -1,0 +1,238 @@
+body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.container .box-4 {
+  width: 50px;
+  height: 200px;
+  border-radius: 15px 15px 20px 20px;
+  border: 1px solid white;
+  background-color: white;
+  -webkit-animation-name: qol;
+          animation-name: qol;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.container .box-4 span {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 30px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 9px;
+}
+.container .box-4 .tirnoq {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 35px;
+  height: 45px;
+  border-radius: 18px 18px 13px 13px;
+  margin-top: 110px;
+  margin-left: 6.5px;
+}
+.container .box-3 {
+  width: 50px;
+  height: 230px;
+  border-radius: 15px 15px 20px 20px;
+  border: 1px solid white;
+  background-color: white;
+  -webkit-animation-name: qol;
+          animation-name: qol;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.container .box-3 span {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 30px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 9px;
+}
+.container .box-3 .tirnoq {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 35px;
+  height: 45px;
+  border-radius: 18px 18px 13px 13px;
+  margin-top: 140px;
+  margin-left: 6.5px;
+}
+.container .box-2 {
+  width: 50px;
+  height: 210px;
+  border-radius: 15px 15px 20px 20px;
+  border: 1px solid white;
+  background-color: white;
+  -webkit-animation-name: barmoq;
+          animation-name: barmoq;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+.container .box-2 span {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 30px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 9px;
+}
+.container .box-2 .tirnoq {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 35px;
+  height: 45px;
+  border-radius: 18px 18px 13px 13px;
+  margin-top: 120px;
+  margin-left: 6.5px;
+}
+.container .finger5 {
+  width: 90px;
+  height: 70px;
+  border-radius: 0 17px 90% 0;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  -webkit-animation-name: move4;
+          animation-name: move4;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.container .finger5::after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 0;
+  background-color: #ffffff;
+  position: absolute;
+  top: -70px;
+  left: 0px;
+}
+.container .finger5::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 0 0 0 60%;
+  background-color: blueviolet;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  z-index: 10;
+}
+.container .box-1 {
+  width: 50px;
+  height: 200px;
+  border-radius: 15px 15px 20px 20px;
+  border: 1px solid white;
+  background-color: white;
+  -webkit-animation-name: qol;
+          animation-name: qol;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.container .box-1 span {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 30px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 9px;
+}
+.container .box-1 .tirnoq {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  width: 35px;
+  height: 45px;
+  border-radius: 18px 18px 13px 13px;
+  margin-top: 110px;
+  margin-left: 6.5px;
+}
+
+@-webkit-keyframes qol {
+  0% {
+    transform: rotateX(30deg);
+    padding-bottom: 10px;
+  }
+  100% {
+    transform: translateY(30px);
+    padding-top: 9px;
+  }
+}
+
+@keyframes qol {
+  0% {
+    transform: rotateX(30deg);
+    padding-bottom: 10px;
+  }
+  100% {
+    transform: translateY(30px);
+    padding-top: 9px;
+  }
+}
+@-webkit-keyframes move4 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+@keyframes move4 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+@-webkit-keyframes barmoq {
+  0% {
+    transform: rotateX(30deg);
+    padding-bottom: 10px;
+  }
+  100% {
+    transform: translateY(30px);
+    padding-top: 9px;
+  }
+}
+@keyframes barmoq {
+  0% {
+    transform: rotateX(30deg);
+    padding-bottom: 10px;
+  }
+  100% {
+    transform: translateY(30px);
+    padding-top: 9px;
+  }
+}/*# sourceMappingURL=main.css.map */
